@@ -2,10 +2,10 @@ import SectionWrapper from "./SectionWrapper";
 
 function Certifications() {
     const certs = [
-        "AWS Cloud Fundamentals",
-        "Python Programming",
-        "Networking Basics",
-        "Cyber Security Essentials",
+        "Python 3.4.3 Training by IIT Bombay",
+        "Intelligent Automation Virtual Internship ",
+        "Artificial Intelligence & Machine Learning ",
+        "MERN Stack Development",
     ];
 
     return (
