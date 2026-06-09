@@ -25,6 +25,17 @@ function Navbar() {
             </a>
           </li>
 
+
+           <li>
+            <a
+              href="#education"
+              className="hover:text-orange-500 transition"
+            >
+              Education
+            </a>
+          </li>
+
+          
           <li>
             <a
               href="#skills"
@@ -34,14 +45,6 @@ function Navbar() {
             </a>
           </li>
 
-          <li>
-            <a
-              href="#education"
-              className="hover:text-orange-500 transition"
-            >
-              Education
-            </a>
-          </li>
 
           <li>
             <a
