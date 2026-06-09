@@ -7,8 +7,8 @@ function Projects() {
       image: "/projects/portfolio.png",
       description:
         "A modern portfolio website built using React, Vite and Tailwind CSS.",
-      github: "#",
-      demo: "#",
+      github: "https://github.com/Debanjan00/my-portfolio.git",
+      demo: "https://my-portfolio-gules-ten-66.vercel.app",
     },
     {
       title: "E-Learning Platform",
