@@ -45,7 +45,15 @@ function Navbar() {
             </a>
           </li>
 
-
+          <li>
+            <a
+              href="#projects"
+              className="hover:text-orange-500 transition"
+            >
+              Projects
+            </a>
+          </li> 
+          
           <li>
             <a
               href="#certifications"
@@ -55,14 +63,7 @@ function Navbar() {
             </a>
           </li>
 
-          <li>
-            <a
-              href="#projects"
-              className="hover:text-orange-500 transition"
-            >
-              Projects
-            </a>
-          </li>
+        
 
           <li>
             <a
@@ -122,7 +123,7 @@ function Navbar() {
             >
               Projects
             </a>
-            
+
             <a
               href="#certifications"
               onClick={() => setMenuOpen(false)}
