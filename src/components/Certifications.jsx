@@ -11,6 +11,7 @@ function Certifications() {
     return (
         <SectionWrapper>
             <section
+                id="certifications"
                 className="scroll-mt-24 py-24 px-6"
             >
                 <div className="max-w-6xl mx-auto">
