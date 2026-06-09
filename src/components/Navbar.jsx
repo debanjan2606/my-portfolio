@@ -25,17 +25,6 @@ function Navbar() {
             </a>
           </li>
 
-
-           <li>
-            <a
-              href="#education"
-              className="hover:text-orange-500 transition"
-            >
-              Education
-            </a>
-          </li>
-
-
           <li>
             <a
               href="#skills"
@@ -45,6 +34,14 @@ function Navbar() {
             </a>
           </li>
 
+          <li>
+            <a
+              href="#education"
+              className="hover:text-orange-500 transition"
+            >
+              Education
+            </a>
+          </li>
 
           <li>
             <a
@@ -100,14 +97,6 @@ function Navbar() {
             </a>
 
             <a
-              href="#education"
-              onClick={() => setMenuOpen(false)}
-              className="hover:text-orange-500"
-            >
-              Education
-            </a>
-
-            <a
               href="#skills"
               onClick={() => setMenuOpen(false)}
               className="hover:text-orange-500"
@@ -116,11 +105,11 @@ function Navbar() {
             </a>
 
             <a
-              href="#projects"
+              href="#education"
               onClick={() => setMenuOpen(false)}
               className="hover:text-orange-500"
             >
-              Projects
+              Education
             </a>
 
             <a
@@ -131,7 +120,13 @@ function Navbar() {
               Certifications
             </a>
 
-            
+            <a
+              href="#projects"
+              onClick={() => setMenuOpen(false)}
+              className="hover:text-orange-500"
+            >
+              Projects
+            </a>
 
             <a
               href="#contact"
