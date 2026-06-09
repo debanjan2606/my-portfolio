@@ -115,6 +115,13 @@ function Navbar() {
               Skills
             </a>
 
+            <a
+              href="#projects"
+              onClick={() => setMenuOpen(false)}
+              className="hover:text-orange-500"
+            >
+              Projects
+            </a>
 
             <a
               href="#certifications"
@@ -124,13 +131,7 @@ function Navbar() {
               Certifications
             </a>
 
-            <a
-              href="#projects"
-              onClick={() => setMenuOpen(false)}
-              className="hover:text-orange-500"
-            >
-              Projects
-            </a>
+            
 
             <a
               href="#contact"
