@@ -60,7 +60,7 @@ ${message}`
                   className="flex items-center gap-3 hover:text-orange-500 transition"
                 >
                   <FaEnvelope />
-                  debanjan.bhaumik1@gmail.com
+                  Email
                 </a>
 
                 <a
